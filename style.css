@@ -5,7 +5,7 @@
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--sans)}
 main{max-width:660px;margin:0 auto;padding:40px 24px 64px}
 header{display:flex;align-items:center;gap:12px;margin-bottom:40px}
-header img{width:40px;height:40px;border-radius:10px}
+header img{width:40px;height:40px;border-radius:10px;box-shadow:0 0 0 1px var(--line)}
 header a{font:600 20px var(--serif);color:var(--ink);text-decoration:none}
 h1{font:600 clamp(34px,7vw,48px)/1.1 var(--serif);margin:0 0 16px;letter-spacing:-.01em}
 h2{font:600 22px var(--serif);margin:40px 0 8px}
